@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Inter:wght@300;400;500;900&family=Montserrat&family=Poppins&display=swap');
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background-color: black;
 }
 #nav{
+    position: sticky;
+    top: 0px;
     width: 100%;
     height: 86px;
     display: flex;
@@ -96,6 +99,8 @@ body{
     height: 35px;
     margin: 15px 25px;
     color: white;
+    font-size: 30px;
+    outline: none;
 }
 ::placeholder{
     color: #FCAF02;
@@ -115,7 +120,9 @@ body{
 .form-2>input{
     background-color: black;
     border: none;
+    outline: none;
     width: 300px;
+    font-size: 30px;
     height: 35px;
     margin: 15px 25px;
     color: white;
